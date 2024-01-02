@@ -1,0 +1,80 @@
+/* Add aos-init class for better control */
+[data-aos].aos-init {
+    visibility: hidden;
+  }
+  
+  [data-aos].aos-init.aos-animate {
+    visibility: visible;
+  }
+  
+  /* Example styling for AOS animations */
+  .img-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .img-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+  }
+  
+  .img-container:hover img {
+    transform: scale(1.1);
+  }
+  
+  [data-aos].aos-init {
+    visibility: hidden;
+  }
+  
+  [data-aos].aos-init.aos-animate {
+    visibility: visible;
+  }
+  
+  /* Add additional styling as needed */
+  .section {
+    padding: 5rem 0 2rem;
+    border-bottom: 1px solid var(--dark-color-lighten);
+  }
+  
+  /* New styles for newsletter */
+  .newsletter__subscribe {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .newsletter__input {
+    flex: 1;
+  }
+  
+  /* Updated styles for the footer */
+  .footer {
+    border-top: 1px solid var(--dark-color-lighten);
+    padding-top: 2rem;
+  }
+  
+  .footer__container {
+    row-gap: 1rem;
+  }
+  
+  .footer__box {
+    text-align: center;
+  }
+  
+  .footer__link {
+    margin-bottom: var(--mb-1);
+  }
+  
+  .footer__social {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+  }
+  
+  .footer__copy {
+    padding-top: 1rem;
+    font-size: var(--smaller-font-size);
+    color: var(--dark-color-light);
+    text-align: center;
+  }
+  
