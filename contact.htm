@@ -8,6 +8,7 @@
   <!-- ===== CSS ===== -->
 
   <link rel="stylesheet" type="text/css" href="index.css"/>
+  <link rel="stylesheet" type="text/css" href="contact.css"/>
 
   <!-- ===== BOX ICONS ===== -->
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
@@ -22,6 +23,8 @@
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
   />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
   <title>Soles D'amour</title>
@@ -43,8 +46,8 @@
         <ul class="nav__list">
           <li class="nav__item"><a href="index.htm" class="nav__link active">Home</a></li>
           <li class="nav__item"><a href="blog.htm" class="nav__link">Our Blog</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
-          <li class="nav__item"><a href="contact.htm" class="nav__link">Contact</a></li>
+          <li class="nav__item"><a href="about.htm" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
           <li class="nav__item"><a href="store.htm" class="nav__link">Shop</a></li>
         </ul>
       </div>
@@ -57,16 +60,50 @@
 <!--BODY-->
 <br><br><br>
 <section>
-    <h1 style="text-align: center; font-size: 35px;">A Little About Us</h1>
+    <h1 style="text-align: center; font-size: 35px; margin-bottom: 30px;">Contact Us</h1>
  </section>
+<div class="container">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Irving, Texas</div>
+          <div class="text-two">USA</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+1 469 943 6108</div>
 
- <!--INTRO-->
- <section>
-
- </section>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">solesdamour@gmail.com</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send us a message</div>
+        <p>If you have any questions regaurding our service, then please let us know. Our contact team will get to you shortly in <br>1-3 business days.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+            <input type="text" placeholder="Enter your message">
+        </div>
+          <input class="button" type="button" value="Send Now" >
+      </form>
+    </div>
+    </div>
+  </div>
 
   <!--===== FOOTER =====-->
-  <footer class="footer section" data-aos="fade-up" data-aos-delay="400">
+  <footer class="footer section">
     <div class="footer__container bd-grid">
       <div class="footer__box">
         <h3 class="footer__title">Ivy</h3>
