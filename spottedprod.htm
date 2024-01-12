@@ -7,7 +7,9 @@
 
   <!-- ===== CSS ===== -->
 
-  <link rel="stylesheet" type="text/css" href="css\index.css"/>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+  <link rel="stylesheet" type="text/css" href="productdesc.css"/>
+  <script src="productdesc.js"></script>
 
   <!-- ===== BOX ICONS ===== -->
   <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
@@ -26,6 +28,7 @@
 
   <title>Soles D'amour</title>
 </head>
+
 <body>
     <script>
         AOS.init();
@@ -43,7 +46,7 @@
         <ul class="nav__list">
           <li class="nav__item"><a href="index.htm" class="nav__link active">Home</a></li>
           <li class="nav__item"><a href="blog.htm" class="nav__link">Our Blog</a></li>
-          <li class="nav__item"><a href="#" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="about.htm" class="nav__link">About Us</a></li>
           <li class="nav__item"><a href="contact.htm" class="nav__link">Contact</a></li>
           <li class="nav__item"><a href="store.htm" class="nav__link">Shop</a></li>
         </ul>
@@ -54,19 +57,80 @@
       
     </nav>
   </header>
-<!--BODY-->
-<br><br><br>
-<section>
-    <h1 style="text-align: center; font-size: 35px;">A Little About Us</h1>
- </section>
 
- <!--INTRO-->
- <section>
+  <main class="l-main">
 
- </section>
+  <!--HOME-->
+  <br><br><br>
+  <main class="container">
+ 
+    <!-- Left Column / Headphones Image -->
+    <div class="left-column">
+      <img data-image="black" src="images/spotted2.png" alt="">
+      <img data-image="blue" src="images/spotted2.png" alt="">
+      <img data-image="red" class="active" src="images/spotted2.png" alt="">
+    </div>
+   
+   
+    <!-- Right Column -->
+    <div class="right-column">
+   
+      <!-- Product Description -->
+      <div class="product-description">
+        <span>Women's Footwear</span>
+        <h1>Spotted Ladybug</h1>
+        <div class="product-price">
+            <span>$112.49</span>
+        </div>
+        <br>
+        <p>The preferred choice of a vast range of acclaimed DJs. Punchy, bass-focused sound and high isolation. Sturdy headband and on-ear cushions suitable for live performance</p>
+      </div>
+   
+      <!-- Product Configuration -->
+      <div class="product-configuration">
+   
+        <!-- Product Color -->
+        <div class="product-color">
+          <span>Color</span>
+ 
+          <div class="color-choose">
+            <div>
+              <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+              <label for="red"><span></span></label>
+            </div>
+   <br>
+   <br>
+        </div>
+   
+        <!-- Shoe Size -->
+        <div class="shoe-size">
+          <span>Size (US Women's Sizing Chart)</span>
+   
+          <div class="shoe-choose">
+            <button>5</button>
+            <button>6</button>
+            <button>7</button>
+            <button>8</button>
+            <br>
+            <button>9</button>
+            <button>10</button>
+            <button>11</button>
+            <button>12</button>
+          </div>
+      
+    <!-- Product Pricing -->
+    <div class="product-price">
+      <a href="#" class="cart-btn">Add to cart</a>
+    </div>
+  </div>
+</main>
 
+
+
+
+  
   <!--===== FOOTER =====-->
-  <footer class="footer section" data-aos="fade-up" data-aos-delay="400">
+  <footer class="footer section" data-aos="fade-up" data-aos-delay="100">
     <div class="footer__container bd-grid">
       <div class="footer__box">
         <h3 class="footer__title">Ivy</h3>
