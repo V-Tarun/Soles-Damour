@@ -324,6 +324,12 @@ body{
   transform: var(--rotate-img);
   filter: drop-shadow(0 12px 8px rgba(0, 0, 0, 0.2));
 }
+.sneaker__img1 {
+  width: 220px;
+  margin-top: var(--mb-3);
+  margin-bottom: var(--mb-6);
+  filter: drop-shadow(0 12px 8px rgba(0, 0, 0, 0.2));
+}
 
 .sneaker__name,
 .sneaker__preci {
